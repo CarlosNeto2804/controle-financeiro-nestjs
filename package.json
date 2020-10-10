@@ -2,9 +2,13 @@
   "name": "controle-financeiro",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": {
+    "name": "Carlos Alberto de Jesus Pereira Neto",
+    "email": "carloshtcursos@gmail.com",
+    "url": "https://github.com/CarlosNeto2804"
+  },
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
