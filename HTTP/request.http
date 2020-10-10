@@ -1,0 +1,15 @@
+POST http://localhost:3000/contas HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo":"Salario",
+    "valor":25,
+    "tipo":"RECEITA"
+}
+
+###
+GET http://localhost:3000/contas/5f7cc680c3cde34cca3b06f5 HTTP/1.1
+
+###
+
+DELETE  http://localhost:3000/contas/5f7cc680c3cde34cca3b06f5 HTTP/1.1
